@@ -3,9 +3,10 @@
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
 
-Version control is used to keep track of changes and 
+Version control is used to keep track of changes on projects and Github is a platform that allows developers to host and collaborate on Git repositories.
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
+
 After setting up a Github account and clicking the add repository button, a unique name should be set for the repository, an optional description for what the repo is about, choosing whether the repo is publicly visible or private, and choosing whether or not to add a README file, a .gitignore file and a license. The most important decision in the process is about whether the repo is public or private.
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
@@ -20,7 +21,7 @@ A private repository is only visible to specific individuals who are allowed to 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
 Commits are save points which are used to keep track of progress and changes. They allow programmers to go back to previous versions of their code when they find bugs or want to make changes.
-
+Commits are done by adding files to be tracked by Git using the 'git add' command followed by committing changes using the 'git commit -m' command.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
@@ -40,7 +41,8 @@ Forking is creating a copy of a repository. This is for the purpose of contribut
 
 Issues can be used in repositories to plan, discuss and track work. Projects are adaptable spreadsheets, task-boards and roadmaps that help with planning and tracking of work by integrating with Issues and pull requests on Github. Both of these tools enhance collaboration by enabling effective communication amongst many collaborators, highlighting important and urgent tasks to the team, managing contributions to the work and even automating certain aspects of coding on Github.
 
-
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
 
 Common challenges that occur with new users to Github and version control include not fully taking advantage of branches and instead working from the main branch, not committing often to save progress or writing vague commit messages, and overwriting important work by not using pull requests correctly.
+
+Some strategies for overcoming these challenges include; writting clear and descriptive commit messages which show a meaningful change, using feature branches correctly to optimise workflow, and using code reviews on pull requests.
